@@ -1,0 +1,43 @@
+# ---------- Maven / Java ----------
+target/
+*.class
+*.log
+hs_err_pid*
+dependency-reduced-pom.xml
+
+# ---------- IDEs ----------
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+nbproject/
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Dataset (large, license-restricted) ----------
+# Unpacked SCUT-HEAD Part A and B
+dataset/raw/data/*
+!dataset/raw/data/.gitkeep
+# Converted YOLO-format output
+dataset/yolo/
+# Do NOT ignore dataset/raw/scut-head (submodule) or dataset/README.md
+
+# ---------- Training (Python, offline) ----------
+runs/
+training/runs/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+*.pt
+*.pth
+
+# ---------- App output: keep the folder, ignore contents ----------
+output/*
+!output/.gitkeep
