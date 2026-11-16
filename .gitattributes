@@ -33,11 +33,6 @@
 # Documents
 *.pdf        binary
 
-# Models and weights
-*.onnx       binary
-*.pt         binary
-*.pth        binary
-
 # Build artifacts
 *.jar        binary
 *.zip        binary

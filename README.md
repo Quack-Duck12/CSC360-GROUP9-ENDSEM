@@ -1,47 +1,67 @@
-
-
-# Project Title
+# Classroom Student Counter
 
 [![Closed Issues](https://img.shields.io/github/issues-closed/Quack-Duck12/CSC360-GROUP9-ENDSEM?logo=github&color=brightgreen)](https://github.com/Quack-Duck12/CSC360-GROUP9-ENDSEM/issues?q=is%3Aissue+state%3Aclosed)
 [![Open Issues](https://img.shields.io/github/issues/Quack-Duck12/CSC360-GROUP9-ENDSEM?logo=github)](https://github.com/Quack-Duck12/CSC360-GROUP9-ENDSEM/issues)
 
-> Short project description goes here.
+> Counts students in a classroom photo using classical image processing.
 
 ## Overview
 
-[Brief overview of the project]
+A JavaFX app that loads a classroom image, runs it through an image-processing pipeline, and draws a box around each head candidate. Built from techniques in the course textbook (Burger & Burge, *Digital Image Processing*) using OpenCV.
 
 ## Objectives
 
-[Project objectives]
+- Count head candidates using only textbook image-processing methods.
+- Let the user see and adjust each pipeline stage.
 
 ## Installation
 
-[Installation instructions]
+Requires JDK 17+ and Maven 3.9+. Dependencies (JavaFX, OpenCV) are downloaded by Maven.
+
+```powershell
+git clone https://github.com/Quack-Duck12/CSC360-GROUP9-ENDSEM.git
+cd CSC360-GROUP9-ENDSEM
+mvn verify
+```
+
+`mvn` compiles, runs all tests and builds the JavaDoc.
 
 ## Usage
 
-[How to run and use the project]
+```powershell
+mvn javafx:run
+```
+
+1. Click **Upload Image**.
+2. Choose a method and move the sliders.
+3. Use **View stage** to see each step.
+4. The count shows at the top right.
 
 ## Features
 
-- [Feature 1]
-- [Feature 2]
-- [Feature 3]
+- Five detection methods: Threshold, Edges, Both, Hough, Blob
+- Adjustable sliders for every step
+- Stage viewer for intermediate images
+- Live head count
+- JUnit tests and JavaDoc
 
 ## Technologies Used
 
-- [Technology 1]
-- [Technology 2]
-- [Technology 3]
+- Java 17
+- JavaFX 21
+- OpenCV 4.7
+- Maven
+- JUnit 5
 
 ## Project Structure
 
 ```text
-project/
+CSC360-GROUP9-ENDSEM/
 ├── src/
-├── docs/
-├── tests/
+│   ├── main/java/com/classcounter/   app and detector
+│   └── test/java/com/classcounter/   JUnit tests
+├── docs/                             architecture document
+├── pom.xml
 └── README.md
 ```
 
@@ -52,11 +72,21 @@ project/
 | Name          | GitHub                                          | ID        |
 | ------------- | ----------------------------------------------- | --------- |
 | Jevis Maniyar | [Quack-Duck12](https://github.com/Quack-Duck12) | AU2520311 |
-| Aryan Joshi   | [aryanjoshi15](https://github.com/aryanjoshi15) | AU2500017 |                                              | —         |
+| Aryan Joshi   | [aryanjoshi15](https://github.com/aryanjoshi15) | AU2500017 |
 | S. Kailash    | [kailash1557](https://github.com/kailash1557)   | AU2520033 |
+
+## Textbook Map
+
+| Topic | Textbook |
+| --- | --- |
+| Gaussian smoothing | Ch. 5.2 |
+| Edge detection | Ch. 6.5 |
+| Thresholding | Ch. 11.1, 11.2 |
+| Morphology | Ch. 9.2, 9.3 |
+| Region analysis | Ch. 10.1, 10.4 |
 
 ## Acknowledgements
 
 We thank [HCIILAB](https://github.com/HCIILAB) for providing the [SCUT-HEAD Dataset](https://github.com/HCIILAB/SCUT-HEAD-Dataset-Release) used in this project.
 
-[References, resources, and acknowledgements]
+- Burger, W. and Burge, M. J., *Digital Image Processing*, Springer, 2016.

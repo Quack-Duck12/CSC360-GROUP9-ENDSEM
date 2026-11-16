@@ -2,6 +2,8 @@
 target/
 *.class
 *.log
+!results/*.log
+tuner-debug/
 hs_err_pid*
 dependency-reduced-pom.xml
 
@@ -23,21 +25,3 @@ desktop.ini
 # Unpacked SCUT-HEAD Part A and B
 dataset/raw/data/*
 !dataset/raw/data/.gitkeep
-# Converted YOLO-format output
-dataset/yolo/
-# Do NOT ignore dataset/raw/scut-head (submodule) or dataset/README.md
-
-# ---------- Training (Python, offline) ----------
-runs/
-training/runs/
-__pycache__/
-*.pyc
-.venv/
-venv/
-.ipynb_checkpoints/
-*.pt
-*.pth
-
-# ---------- App output: keep the folder, ignore contents ----------
-output/*
-!output/.gitkeep

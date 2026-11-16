@@ -1,0 +1,112 @@
+Using split list dataset\raw\data\SCUT_HEAD_Part_B\ImageSets\Main\train.txt
+Found 1443 images; tuning on 120, held-out 60
+Evaluating defaults ...
+Defaults        : F1=0.106  P=0.132  R=0.088  mean|count error|=54.7%
+  ... 10/600 iterations done (4 s elapsed)
+  ... 20/600 iterations done (9 s elapsed)
+  ... 30/600 iterations done (12 s elapsed)
+  ... 40/600 iterations done (16 s elapsed)
+  ... 50/600 iterations done (22 s elapsed)
+  ... 60/600 iterations done (27 s elapsed)
+  ... 70/600 iterations done (31 s elapsed)
+  ... 80/600 iterations done (37 s elapsed)
+  ... 90/600 iterations done (41 s elapsed)
+  ... 100/600 iterations done (48 s elapsed)
+  ... 110/600 iterations done (53 s elapsed)
+  ... 120/600 iterations done (57 s elapsed)
+  ... 130/600 iterations done (61 s elapsed)
+  ... 140/600 iterations done (70 s elapsed)
+  ... 150/600 iterations done (74 s elapsed)
+  ... 160/600 iterations done (88 s elapsed)
+  ... 170/600 iterations done (93 s elapsed)
+  ... 180/600 iterations done (96 s elapsed)
+  ... 190/600 iterations done (101 s elapsed)
+  ... 200/600 iterations done (106 s elapsed)
+  ... 210/600 iterations done (114 s elapsed)
+  ... 220/600 iterations done (118 s elapsed)
+  ... 230/600 iterations done (122 s elapsed)
+  ... 240/600 iterations done (126 s elapsed)
+iter 245  better : F1=0.109  P=0.143  R=0.088  mean|count error|=52.2%
+iter 246  better : F1=0.108  P=0.142  R=0.088  mean|count error|=52.0%
+iter 247  better : F1=0.108  P=0.142  R=0.088  mean|count error|=52.0%
+  ... 250/600 iterations done (147 s elapsed)
+iter 251  better : F1=0.109  P=0.141  R=0.088  mean|count error|=51.9%
+  ... 260/600 iterations done (168 s elapsed)
+iter 267  better : F1=0.109  P=0.141  R=0.088  mean|count error|=51.7%
+  ... 270/600 iterations done (188 s elapsed)
+iter 276  better : F1=0.109  P=0.141  R=0.088  mean|count error|=51.7%
+  ... 280/600 iterations done (207 s elapsed)
+iter 283  better : F1=0.109  P=0.141  R=0.088  mean|count error|=51.7%
+  ... 290/600 iterations done (228 s elapsed)
+  ... 300/600 iterations done (251 s elapsed)
+iter 301  better : F1=0.108  P=0.133  R=0.091  mean|count error|=50.7%
+iter 305  better : F1=0.108  P=0.134  R=0.091  mean|count error|=50.8%
+iter 309  better : F1=0.108  P=0.134  R=0.091  mean|count error|=50.8%
+  ... 310/600 iterations done (272 s elapsed)
+iter 312  better : F1=0.108  P=0.135  R=0.090  mean|count error|=49.7%
+  ... 320/600 iterations done (289 s elapsed)
+  ... 330/600 iterations done (309 s elapsed)
+  ... 340/600 iterations done (331 s elapsed)
+  ... 350/600 iterations done (353 s elapsed)
+  ... 360/600 iterations done (376 s elapsed)
+  ... 370/600 iterations done (398 s elapsed)
+  ... 380/600 iterations done (419 s elapsed)
+iter 381  better : F1=0.108  P=0.135  R=0.090  mean|count error|=49.6%
+iter 382  better : F1=0.108  P=0.135  R=0.090  mean|count error|=48.9%
+iter 385  better : F1=0.108  P=0.135  R=0.090  mean|count error|=48.9%
+  ... 390/600 iterations done (438 s elapsed)
+iter 393  better : F1=0.108  P=0.135  R=0.090  mean|count error|=48.9%
+iter 399  better : F1=0.108  P=0.135  R=0.090  mean|count error|=48.9%
+  ... 400/600 iterations done (457 s elapsed)
+  ... 410/600 iterations done (475 s elapsed)
+  ... 420/600 iterations done (497 s elapsed)
+  ... 430/600 iterations done (516 s elapsed)
+  ... 440/600 iterations done (536 s elapsed)
+iter 441  better : F1=0.108  P=0.135  R=0.090  mean|count error|=48.9%
+  ... 450/600 iterations done (556 s elapsed)
+  ... 460/600 iterations done (574 s elapsed)
+  ... 470/600 iterations done (597 s elapsed)
+  ... 480/600 iterations done (618 s elapsed)
+  ... 490/600 iterations done (635 s elapsed)
+  ... 500/600 iterations done (657 s elapsed)
+  ... 510/600 iterations done (672 s elapsed)
+  ... 520/600 iterations done (689 s elapsed)
+  ... 530/600 iterations done (712 s elapsed)
+  ... 540/600 iterations done (733 s elapsed)
+  ... 550/600 iterations done (751 s elapsed)
+  ... 560/600 iterations done (770 s elapsed)
+  ... 570/600 iterations done (786 s elapsed)
+  ... 580/600 iterations done (807 s elapsed)
+  ... 590/600 iterations done (829 s elapsed)
+  ... 600/600 iterations done (851 s elapsed)
+
+Best on tuning set : F1=0.108  P=0.135  R=0.090  mean|count error|=48.9%
+Defaults on held-out: F1=0.070  P=0.078  R=0.064  mean|count error|=56.8%
+Best on held-out    : F1=0.074  P=0.083  R=0.067  mean|count error|=51.5%
+debug PartB_01102: ground truth 10, detected 8
+debug PartB_00112: ground truth 10, detected 4
+debug PartB_01326: ground truth 9, detected 16
+debug PartB_00495: ground truth 5, detected 2
+debug PartB_00863: ground truth 6, detected 5
+debug PartB_01242: ground truth 4, detected 5
+debug PartB_00282: ground truth 13, detected 6
+debug PartB_01955: ground truth 15, detected 4
+Debug images saved to C:\Users\ADMIN\Desktop\Code\College\CSC360\CSC360-GROUP9-ENDSEM\tuner-debug
+
+--- paste into HeadDetector.Params ---
+public Method method = Method.THRESHOLD;
+public Threshold threshold = Threshold.GLOBAL;
+public int blur = 1;
+public int globalValue = 35;
+public int adaptiveBlock = 79;
+public int adaptiveC = 12;
+public int cannyLow = 35, cannyHigh = 185;
+public int morph = 7;
+public double minArea = 223, maxArea = 5755;
+public double minAspect = 0.42, maxAspect = 1.84;
+public double minCircularity = 0.00;
+public double iou = 0.22;
+public int houghParam2 = 26;
+public int houghMinR = 5, houghMaxR = 30;
+public int houghMinDist = 13;
+public double minSolidity = 0.00, maxEccentricity = 9.70;
