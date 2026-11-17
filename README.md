@@ -9,6 +9,11 @@
 
 A JavaFX app that loads a classroom image, runs it through an image-processing pipeline, and draws a box around each head candidate. Built from techniques in the course textbook (Burger & Burge, *Digital Image Processing*) using OpenCV.
 
+<p align="center">
+  <img src="docs/images/1.png" alt="Result 1" width="48%">
+  <img src="docs/images/3.png" alt="Result 3" width="48%">
+</p>
+
 ## Objectives
 
 - Count head candidates using only textbook image-processing methods.
