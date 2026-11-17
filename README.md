@@ -82,17 +82,6 @@ CSC360-GROUP9-ENDSEM/
 
 42 JUnit 5 tests cover the detector and the parameter tuner. Run them with `mvn test`.
 
-## Results
-
-Measured on 60 held-out SCUT-HEAD Part B images (details in [`results/RESULTS.md`](results/RESULTS.md)):
-
-| Parameter set | F1 | Precision | Recall |
-| --- | --- | --- | --- |
-| Hand-picked starting values | 0.000 | 0.000 | 0.000 |
-| Tuned, threshold method | 0.070 | 0.078 | 0.064 |
-| **Tuned, final defaults** | **0.074** | **0.083** | **0.067** |
-
-The detector counts dark, roughly round blobs of plausible size. It works better on sparse scenes than on crowded ones.
 
 ## Team Members
 
