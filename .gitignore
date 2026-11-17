@@ -25,3 +25,7 @@ desktop.ini
 # Unpacked SCUT-HEAD Part A and B
 dataset/raw/data/*
 !dataset/raw/data/.gitkeep
+
+# --------- Extra ---------
+*.zip
+Top5.javadataset/raw/data/

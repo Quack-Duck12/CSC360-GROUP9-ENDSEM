@@ -1,0 +1,3 @@
+[submodule "dataset/raw/scut-head"]
+	path = dataset/raw/scut-head
+	url = https://github.com/HCIILAB/SCUT-HEAD-Dataset-Release.git
